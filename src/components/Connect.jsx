@@ -17,7 +17,7 @@ function Connect() {
     {
       name: "Email",
       icon: <Mail size={40} />,
-      link: "mailto:dineshdeveloper21@outlook.com",
+      link: "mailto:dineshdeveloper21@gmail.com",
     },
   ];
 
