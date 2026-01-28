@@ -51,8 +51,8 @@ function Hero() {
             <button
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/DineshResume7.pdf";
-                link.download = "Dinesh_Resume.pdf";
+                link.href = "/Dinesh's-Resume.pdf";
+                link.download = "Dinesh's-Resume.pdf";
                 link.click();
               }}
               className="cursor-pointer px-6 py-3 border border-white text-white font-poppins font-medium rounded-lg hover:bg-white hover:text-black transition duration-300 text-center"
