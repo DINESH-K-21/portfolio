@@ -5,7 +5,7 @@ import { ExternalLink, Github } from "lucide-react";
 function Projects() {
   const projects = [
     {
-      title: "CRICMATCH",
+      title: "BETTING APP",
       subtitle: "Web Betting Application",
       description:
         "Built responsive UI using React.js and integrated frontend with backend APIs using Laravel. Handled state management and smooth user interactions.",
@@ -14,7 +14,7 @@ function Projects() {
       github: "#",
     },
     {
-      title: "FINZOR",
+      title: "FINTECH APP",
       subtitle: "Banking Application",
       description:
         "Developed scalable and secure UI using React.js, Redux, React Router, Axios and Formik. Integrated with backend APIs for efficient data handling.",
@@ -23,7 +23,7 @@ function Projects() {
       github: "#",
     },
     {
-  title: "CREDVAULT",
+  title: "MANAGEMENT APP",
   subtitle: "Domain Management Application",
   description:
     "Built a full-stack domain management system with React.js frontend and Node.js backend. Implemented authentication, role-based access, and integrated REST APIs for managing domains, providers, and renewals.",
@@ -32,11 +32,20 @@ function Projects() {
   github: "#",
 },
 {
-  title: "FINVAULT",
+  title: "MANAGEMENT APP",
   subtitle: "Financial Management Application",
   description:
     "Developed a secure financial management platform using React.js and Node.js. Implemented transaction handling, user authentication, and real-time data updates with RESTful APIs .",
   tech: ["React", "JavaScript", "Laravel", "API"],
+  live: "#",
+  github: "#",
+},
+{
+  title: "MEETING APP",
+  subtitle: "Meeting schedular Application",
+  description:
+    "Built a full-stack meeting management system with React.js frontend and laravel backend. Implemented authentication, role-based access, and integrated REST APIs for managing calendar , notifications.",
+  tech: ["React", "PHP", "LARAVEL","REST API"],
   live: "#",
   github: "#",
 },
