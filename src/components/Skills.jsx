@@ -12,6 +12,13 @@ import tailwind from "../assets/skills/tailwind.png";
 import git from "../assets/skills/git.png";
 import aws from "../assets/skills/aws.png";
 import linux from "../assets/skills/linux.png";
+import jenkins from "../assets/skills/jenkins.png";
+import docker from "../assets/skills/docker.jpeg";
+import mysql from "../assets/skills/mysql.png";
+import postgres from "../assets/skills/postgre.png";
+import sql from "../assets/skills/sql.png";
+import nginx from "../assets/skills/nginx.png";
+import github from "../assets/skills/github.png";
 
 function Skills() {
   const skills = [
@@ -21,11 +28,17 @@ function Skills() {
     { name: "Node.js", img: node },
     { name: "HTML", img: html },
     { name: "CSS", img: css },
-    // { name: "Linux", img: linux },
+    { name: "Linux", img: linux },
     // { name: "AWS", img: aws },
-    { name: "MongoDB", img: mongodb },
+    { name: "Jenkins", img: jenkins },
+    { name: "Docker", img: docker },
+    { name: "Mysql", img: mysql },
+    { name: "Postgres", img: postgres },
+    { name: "sql", img: sql },
+    { name: "nginx", img: nginx },
     { name: "Tailwind", img: tailwind },
     { name: "Git", img: git },
+    { name: "Github", img: github },
   ];
 
   return (

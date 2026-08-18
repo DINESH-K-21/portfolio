@@ -8,14 +8,14 @@ function AboutMe() {
       </div>
       <div className="flex flex-col gap-3">
         <h2 className="text-xl sm:text-2xl font-bold">Experience</h2>
-        <p className="font-poppins font-medium">Software Engineer(+1 Year)</p>
+        <p className="font-poppins font-medium">Software Engineer(1+ Year)</p>
       </div>
       <div>
         <p className="text-lg sm:text-xl font-medium font-poppins leading-relaxed">
-          I am a passionate Full Stack Developer with over 1 year of hands-on experience 
-  working with the MERN stack (MongoDB, Express.js, React.js, Node.js). I enjoy building 
-  scalable and secure web applications, designing clean APIs, and creating responsive 
-  user interfaces that deliver great user experiences.
+         Full-Stack Developer with 1.9+ years of hands-on experience building scalable web applications using JavaScript,
+React.js, and Node.js. Proficient in RESTful APIs, Microservices architecture, Authentication & Authorization, Nginx,
+and CI/CD pipelines with Docker and Jenkins. Passionate about writing clean code and optimizing application
+performance.
  
   </p>
       </div>

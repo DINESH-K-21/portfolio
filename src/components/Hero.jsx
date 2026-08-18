@@ -37,10 +37,10 @@ function Hero() {
 
           <div className="flex flex-col items-start gap-1 text-white text-lg sm:text-xl font-poppins">
             <p>
-              I design and build scalable, high-performance web applications
+              Architecting and developing high-performance software applications 
             </p>
             <p>
-              with a strong focus on user experience and clean architecture.
+              with a relentless focus on code quality, performance, and intuitive design.
             </p>
           </div>
 
