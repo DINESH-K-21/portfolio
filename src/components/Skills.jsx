@@ -19,26 +19,28 @@ import postgres from "../assets/skills/postgre.png";
 import sql from "../assets/skills/sql.png";
 import nginx from "../assets/skills/nginx.png";
 import github from "../assets/skills/github.png";
+import githubActions from "../assets/skills/githubActions.jpeg";
 
 function Skills() {
   const skills = [
     { name: "JavaScript", img: js },
     { name: "React", img: reactLogo },
-    { name: "Express.js", img: express },
+    // { name: "Express.js", img: express },
     { name: "Node.js", img: node },
     { name: "HTML", img: html },
     { name: "CSS", img: css },
     { name: "Linux", img: linux },
-    // { name: "AWS", img: aws },
-    { name: "Jenkins", img: jenkins },
+    { name: "AWS", img: aws },
+    // { name: "Jenkins", img: jenkins },
     { name: "Docker", img: docker },
-    { name: "Mysql", img: mysql },
+    // { name: "Mysql", img: mysql },
     { name: "Postgres", img: postgres },
-    { name: "sql", img: sql },
+    // { name: "sql", img: sql },
     { name: "nginx", img: nginx },
     { name: "Tailwind", img: tailwind },
     { name: "Git", img: git },
     { name: "Github", img: github },
+    { name: "GithubActions", img: githubActions },
   ];
 
   return (

@@ -3,54 +3,78 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 
 function Projects() {
-  const projects = [
-    {
-      title: "BETTING APP",
-      subtitle: "Web Betting Application",
-      description:
-        "Built responsive UI using React.js and integrated frontend with backend APIs using Laravel. Handled state management and smooth user interactions.",
-      tech: ["React", "JavaScript", "Laravel", "API"],
-      live: "#",
-      github: "#",
-    },
-    {
-      title: "FINTECH APP",
-      subtitle: "Banking Application",
-      description:
-        "Developed scalable and secure UI using React.js, Redux, React Router, Axios and Formik. Integrated with backend APIs for efficient data handling.",
-      tech: ["React", "Redux", "Axios", "Formik", "API"],
-      live: "#",
-      github: "#",
-    },
-    {
-  title: "MANAGEMENT APP",
-  subtitle: "Domain Management Application",
-  description:
-    "Built a full-stack domain management system with React.js frontend and Node.js backend. Implemented authentication, role-based access, and integrated REST APIs for managing domains, providers, and renewals.",
-  tech: ["React", "Node.js", "Express","REST API"],
-  live: "#",
-  github: "#",
-},
-{
-  title: "MANAGEMENT APP",
-  subtitle: "Financial Management Application",
-  description:
-    "Developed a secure financial management platform using React.js and Node.js. Implemented transaction handling, user authentication, and real-time data updates with RESTful APIs .",
-  tech: ["React", "JavaScript", "Laravel", "API"],
-  live: "#",
-  github: "#",
-},
-{
-  title: "MEETING APP",
-  subtitle: "Meeting schedular Application",
-  description:
-    "Built a full-stack meeting management system with React.js frontend and laravel backend. Implemented authentication, role-based access, and integrated REST APIs for managing calendar , notifications.",
-  tech: ["React", "PHP", "LARAVEL","REST API"],
-  live: "#",
-  github: "#",
-},
+ 
+const projects = [
+  {
+    title: "CLOUD-NATIVE E-COMMERCE",
+    subtitle: "DevOps & Cloud Infrastructure",
+    description:
+      "Designed and containerized a multi-service e-commerce application using Docker and Docker Compose. Configured Nginx as a reverse proxy and load balancer, built GitHub Actions CI workflows, and provisioned AWS test infrastructure using Terraform.",
+    tech: [
+      "AWS",
+      "Docker",
+      "Docker Compose",
+      "Nginx",
+      "GitHub Actions",
+      "Terraform",
+      "Linux",
+    ],
+    live: "#",
+    github: "#",
+  },
 
-  ];
+  {
+    title: "BETTING APP",
+    subtitle: "Web Betting Application",
+    description:
+      "Built responsive UI using React.js and integrated frontend with backend APIs using Laravel. Handled state management and smooth user interactions.",
+    tech: ["React", "JavaScript", "Laravel", "API"],
+    live: "#",
+    github: "#",
+  },
+
+  {
+    title: "FINTECH APP",
+    subtitle: "Banking Application",
+    description:
+      "Developed scalable and secure UI using React.js, Redux, React Router, Axios and Formik. Integrated with backend APIs for efficient data handling.",
+    tech: ["React", "Redux", "Axios", "Formik", "API"],
+    live: "#",
+    github: "#",
+  },
+
+  {
+    title: "MANAGEMENT APP",
+    subtitle: "Domain Management Application",
+    description:
+      "Built a full-stack domain management system with React.js frontend and Node.js backend. Implemented authentication, role-based access, and integrated REST APIs for managing domains, providers, and renewals.",
+    tech: ["React", "Node.js", "Express", "REST API"],
+    live: "#",
+    github: "#",
+  },
+
+  {
+    title: "MANAGEMENT APP",
+    subtitle: "Financial Management Application",
+    description:
+      "Developed a secure financial management platform using React.js and Node.js. Implemented transaction handling, user authentication, and real-time data updates with RESTful APIs.",
+    tech: ["React", "JavaScript", "Laravel", "API"],
+    live: "#",
+    github: "#",
+  },
+
+  {
+    title: "MEETING APP",
+    subtitle: "Meeting Scheduler Application",
+    description:
+      "Built a full-stack meeting management system with React.js frontend and Laravel backend. Implemented authentication, role-based access, and REST APIs for calendar and notification management.",
+    tech: ["React", "PHP", "Laravel", "REST API"],
+    live: "#",
+    github: "#",
+  },
+];
+
+
 
   return (
     <div

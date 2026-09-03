@@ -31,16 +31,16 @@ function Hero() {
               transition={{ duration: 1, delay: 0.3 }}
               className="text-[#5518AB] text-3xl sm:text-4xl md:text-5xl font-poppins font-bold"
             >
-              Full Stack Developer
+              Cloud & DevOps Engineer
             </motion.h1>
           </div>
 
           <div className="flex flex-col items-start gap-1 text-white text-lg sm:text-xl font-poppins">
             <p>
-              Architecting and developing high-performance software applications 
+              Building reliable cloud infrastructure, automated deployments, 
             </p>
             <p>
-              with a relentless focus on code quality, performance, and intuitive design.
+              and scalable applications with DevOps and cloud technologies.
             </p>
           </div>
 
