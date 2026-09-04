@@ -37,22 +37,23 @@ function Hero() {
 
           <div className="flex flex-col items-start gap-1 text-white text-lg sm:text-xl font-poppins">
             <p>
-              Building reliable cloud infrastructure, automated deployments, 
+              Building reliable cloud infrastructure, automated deployments,
             </p>
-            <p>
-              and scalable applications with DevOps and cloud technologies.
-            </p>
+            <p>and scalable applications with DevOps and cloud technologies.</p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4">
-            <Link to="projects" className="cursor-pointer px-6 py-3 bg-[#5518AB] text-white font-poppins font-medium rounded-lg hover:bg-[#8034EB] transition duration-300 text-center">
+            <Link
+              to="projects"
+              className="cursor-pointer px-6 py-3 bg-[#5518AB] text-white font-poppins font-medium rounded-lg hover:bg-[#8034EB] transition duration-300 text-center"
+            >
               View Projects
             </Link>
             <button
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/Dinesh_K-resume.pdf";
-                link.download = "Dinesh_K-resume.pdf";
+                link.href = "/Dinesh-Resume-DO.pdf";
+                link.download = "Dinesh-Resume-DO.pdf";
                 link.click();
               }}
               className="cursor-pointer px-6 py-3 border border-white text-white font-poppins font-medium rounded-lg hover:bg-white hover:text-black transition duration-300 text-center"
