@@ -13,7 +13,6 @@ import git from "../assets/skills/git.png";
 import aws from "../assets/skills/aws.png";
 import kubernetes from "../assets/skills/kubernetes.png";
 import terraform from "../assets/skills/terraform.png";
-import aws from "../assets/skills/aws.png";
 import linux from "../assets/skills/linux.png";
 import jenkins from "../assets/skills/jenkins.png";
 import docker from "../assets/skills/docker.jpeg";

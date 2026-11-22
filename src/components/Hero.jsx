@@ -37,9 +37,9 @@ function Hero() {
 
           <div className="flex flex-col items-start gap-1 text-white text-lg sm:text-xl font-poppins">
             <p>
-              Building reliable cloud infrastructure, automated deployments,
+              Building reliable cloud infrastructure, automated deployments,and scalable applications with DevOps and cloud technologies.
             </p>
-            <p>and scalable applications with DevOps and cloud technologies.</p>
+            <p></p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4">
