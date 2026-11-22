@@ -3,85 +3,78 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 
 function Projects() {
- 
-const projects = [
-  {
-    title: "CLOUD-NATIVE E-COMMERCE",
-    subtitle: "DevOps & Cloud Infrastructure",
-    description:
-      "Designed and containerized a multi-service e-commerce application using Docker and Docker Compose. Configured Nginx as a reverse proxy and load balancer, built GitHub Actions CI workflows, and provisioned AWS test infrastructure using Terraform.",
-    tech: [
-      "AWS",
-      "Docker",
-      "Docker Compose",
-      "Nginx",
-      "GitHub Actions",
-      "Terraform",
-      "Linux",
-    ],
-    live: "#",
-    github: "#",
-  },
+  const projects = [
+    {
+      title: "CLOUD-NATIVE E-COMMERCE",
+      subtitle: "DevOps & Cloud Infrastructure",
+      description:
+        "Designed and containerized a multi-service e-commerce application using Docker and Docker Compose. Configured Nginx as a reverse proxy and load balancer, built GitHub Actions CI workflows, and provisioned AWS test infrastructure using Terraform.",
+      tech: [
+        "AWS",
+        "Docker",
+        "Docker Compose",
+        "Nginx",
+        "GitHub Actions",
+        "Terraform",
+        "Linux",
+      ],
+      live: "#",
+      github: "#",
+    },
 
-  {
-    title: "BETTING APP",
-    subtitle: "Web Betting Application",
-    description:
-      "Built responsive UI using React.js and integrated frontend with backend APIs using Laravel. Handled state management and smooth user interactions.",
-    tech: ["React", "JavaScript", "Laravel", "API"],
-    live: "#",
-    github: "#",
-  },
+    {
+      title: "SECURE FINTECH BANKING PLATFORM",
+      subtitle: "DevOps & Cloud Infrastructure",
+      description:
+        "Deployed a full-stack banking application handling secure user CRUD operations and account management on AWS. Provisioned EC2 instances (Ubuntu) in a custom VPC with public and private subnets, Internet Gateway, route tables, and security groups, with secure SSH access and least-privilege IAM roles. Containerized services with Docker, built automated GitHub Actions and Jenkins pipelines for build verification and deployment, and configured Route 53 DNS records and environment secrets.",
+      tech: [
+        "AWS EC2",
+        "VPC",
+        "IAM",
+        "Route 53",
+        "Docker",
+        "GitHub Actions",
+        "Jenkins",
+        "Linux",
+        "React",
+      ],
+      live: "#",
+      github: "#",
+    },
 
-  {
-    title: "FINTECH APP",
-    subtitle: "Banking Application",
-    description:
-      "Developed scalable and secure UI using React.js, Redux, React Router, Axios and Formik. Integrated with backend APIs for efficient data handling.",
-    tech: ["React", "Redux", "Axios", "Formik", "API"],
-    live: "#",
-    github: "#",
-  },
+    {
+      title: "SCALETIME",
+      subtitle: "AI Meeting & Interview Management Infrastructure",
+      description:
+        "Deployed an AI-driven meeting and interview management application with a focus on automated delivery. Implemented continuous deployment with GitHub Actions and Docker registries, wrote Terraform configurations to provision core AWS resources (VPC, EC2, S3) with variables and remote state, and configured Nginx as a reverse proxy for SSL termination, load balancing, and internal traffic routing.",
+      tech: [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "GitHub Actions",
+        "Nginx",
+        "Linux",
+      ],
+      live: "#",
+      github: "#",
+    },
 
-  {
-    title: "MANAGEMENT APP",
-    subtitle: "Domain Management Application",
-    description:
-      "Built a full-stack domain management system with React.js frontend and Node.js backend. Implemented authentication, role-based access, and integrated REST APIs for managing domains, providers, and renewals.",
-    tech: ["React", "Node.js", "Express", "REST API"],
-    live: "#",
-    github: "#",
-  },
-
-  {
-    title: "MANAGEMENT APP",
-    subtitle: "Financial Management Application",
-    description:
-      "Developed a secure financial management platform using React.js and Node.js. Implemented transaction handling, user authentication, and real-time data updates with RESTful APIs.",
-    tech: ["React", "JavaScript", "Laravel", "API"],
-    live: "#",
-    github: "#",
-  },
-
-  {
-    title: "MEETING APP",
-    subtitle: "Meeting Scheduler Application",
-    description:
-      "Built a full-stack meeting management system with React.js frontend and Laravel backend. Implemented authentication, role-based access, and REST APIs for calendar and notification management.",
-    tech: ["React", "PHP", "Laravel", "REST API"],
-    live: "#",
-    github: "#",
-  },
-];
-
-
+    {
+      title: "BETTING APP",
+      subtitle: "Web Betting Application",
+      description:
+        "Built responsive UI using React.js and integrated frontend with backend APIs using Laravel. Handled state management and smooth user interactions.",
+      tech: ["React", "JavaScript", "Laravel", "API"],
+      live: "#",
+      github: "#",
+    },
+  ];
 
   return (
     <div
       id="projects"
       className="min-h-screen bg-black text-white px-4 sm:px-8 md:px-20 py-20 mt-7 font-poppins"
     >
-    
       <motion.h1
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -93,7 +86,6 @@ const projects = [
       </motion.h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
-
         {projects.map((project, index) => (
           <motion.div
             key={index}
@@ -104,7 +96,6 @@ const projects = [
             className="bg-[#111] border-2 border-[#5518AB] rounded-2xl p-6 md:p-8 
                        hover:scale-105 transition duration-300 shadow-lg cursor-pointer"
           >
-        
             <h2 className="text-xl sm:text-2xl font-poppins font-bold text-white mb-1">
               {project.title}
             </h2>
@@ -113,12 +104,10 @@ const projects = [
               {project.subtitle}
             </p>
 
-           
             <p className="text-slate-300 font-medium mb-6 leading-relaxed text-sm sm:text-base">
               {project.description}
             </p>
 
-       
             <div className="flex flex-wrap gap-3 mb-6">
               {project.tech.map((tech, i) => (
                 <span
@@ -130,12 +119,8 @@ const projects = [
                 </span>
               ))}
             </div>
-
-       
-            
           </motion.div>
         ))}
-
       </div>
     </div>
   );
