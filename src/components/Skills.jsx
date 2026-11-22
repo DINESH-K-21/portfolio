@@ -11,6 +11,9 @@ import js from "../assets/skills/js.png";
 import tailwind from "../assets/skills/tailwind.png";
 import git from "../assets/skills/git.png";
 import aws from "../assets/skills/aws.png";
+import kubernetes from "../assets/skills/kubernetes.png";
+import terraform from "../assets/skills/terraform.png";
+import aws from "../assets/skills/aws.png";
 import linux from "../assets/skills/linux.png";
 import jenkins from "../assets/skills/jenkins.png";
 import docker from "../assets/skills/docker.jpeg";
@@ -31,7 +34,7 @@ function Skills() {
     { name: "CSS", img: css },
     { name: "Linux", img: linux },
     { name: "AWS", img: aws },
-    // { name: "Jenkins", img: jenkins },
+    { name: "Jenkins", img: jenkins },
     { name: "Docker", img: docker },
     // { name: "Mysql", img: mysql },
     { name: "Postgres", img: postgres },
@@ -40,7 +43,10 @@ function Skills() {
     { name: "Tailwind", img: tailwind },
     { name: "Git", img: git },
     { name: "Github", img: github },
-    { name: "GithubActions", img: githubActions },
+    { name: "AWS", img: aws },
+    { name: "KUBERNETES", img: kubernetes },
+    { name: "TERRAFORM", img: terraform },
+    // { name: "GithubActions", img: githubActions },
   ];
 
   return (
